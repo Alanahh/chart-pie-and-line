@@ -4,8 +4,8 @@
 .wrapper{
     display: flex;   
     flex-wrap: wrap;
-    margin-bottom: 150px;
-    justify-content: center;
+    margin-bottom: 100px;
+    justify-content:  space-around;
 }
  .text{
      color: #548aa3;
@@ -52,11 +52,26 @@ width: 355px;
       background: #194c61;
       padding-bottom: 20px;
   }
- 
+ .totl{
+     color: #3d4f6d;
+   display: flex;
+   justify-content: space-around;
+ }
 
 .text2{
     width: 80%;
     margin: 0 auto;
     padding: 35px;
     color:#fff;
+}
+.total{
+    margin-bottom: 50px;
+}
+.total2{
+margin-right: 250px;
+}
+@media screen and (max-width: 1080px) {
+    .total2{
+        margin-right: 0px;
+        }
 }
